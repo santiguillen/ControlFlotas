@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Control de Flotas</string>
+    
+    <!-- MENUS -->
+    <string name="menu_ajustes">Ajustes</string>
+    <string name="menu_salir">Salir</string>
+    <string name="menu_ayuda">Ayuda</string>
+    
+    <!-- Vista Login -->
+    <string name="user">Introducir usuario</string>
+    <string name="password">Introducir contraseña</string>
+    <string name="botonEntrar">Entrar</string>
+    <string name="contentDescription">Logotipo aplicación</string>
+    <string name="alarmaLoginTitulo">Fallo inicio sesión</string>
+    <string name="alarmaLoginContenido">Usuario o contraseña incorrecta</string>
+    <string name="confirmarError">Aceptar</string>
+    
+    <!-- Vista Mapa -->
+    <string name="title_activity_mapa_vista">Mapa</string>
+    
+    <!-- Vista Ayuda Tab1-->
+    <string name="title_activity_ayuda_vista">Ayuda</string>
+    <string name="title_activity_help_vista">Ayuda</string>
+    <string name="helpText">Mapa:\n\nCada marcador corresponde a un vehículo.Al pulsar sobre él, mostrará la información detallada de este. \n
+        Esta parte no está implementada, debería existir la posibilidad de ir a una pantalla particular pora cada vehículo en 
+        el que se verá su historial, y la forma de ponerse en contacto con él mediante mensaje de texto/email/llamada, etc) \n\n
+        Ajustes: \n
+        En menú ajustes podrá cambiar el idioma de la aplicación, y los parámetros del mapa.
+        </string>
+    <!-- Vista Ayuda Tab2-->   
+    <string name="title_activity_novedades_vista">Novedades</string>
+    <string name="newsText">Listado de mejoras realizadas en cada una de las versiones:\n\n
+        Versión 0.0: Añadido Mapa\n
+        Versión 0.1: Añadido menú ajustes\n
+        Verión 0.2: Añadido contenido menú ayuda\n </string>
+        
+    <!-- Vista Ayuda Tab2-->   
+    <string name="title_activity_acerca_de">Acerca de</string> 
+    <string name="aboutText">Control de flotas\n
+        Versión 0.3.0\n\n
+        Desarrollador:\n
+        Santiago Guillén García\n\n
+        Contacto:</string>
+    <string name="email">email</string>
+    <string name="emailContentDescription">logo email</string>
+    <string name="clienteMail">Seleccione cliente email</string>         
+    
+    <!-- Vista Ajustes -->
+    <string name="title_ajustes">Ajustes</string>   
+    <string name="ajusteGeneral">General</string>
+    <string name="ajusteIdioma">Idioma</string>
+    <string name="es">Español</string>
+    <string name="en">Inglés</string>    
+    <string name="ajusteMapa">Mapa</string>
+    <string name="ajusteTipoMapa">Tipo de mapa</string>
+    <string name="normal">Normal</string>
+    <string name="satelite">Satélite</string>
+    <string name="hibrido">Híbrido</string>
+    <string name="botonesZoom">Mostrar botones zoom</string>    
+        
+      <!-- Vista Detalle Vehículos -->
+    <string name="title_activity_detalle_vehiculo">DetalleVehiculo</string>
+    <string name="idVehiculo">ID vehículo:  </string>
+    <string name="idConductor">Conductor: </string>
+    <string name="botonLLamada">Llamar </string>
+    <string name="botonSMS">SMS </string>
+    <string name="tituloSMS">Enviar SMS</string>
+    <string name="cuerpoSMS">Cuerpo SMS</string>
+    
+    
+    
+
+</resources>

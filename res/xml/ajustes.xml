@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">        
+        
+         <PreferenceCategory android:title="@string/ajusteGeneral">
+            
+            <ListPreference 
+            android:title="@string/ajusteIdioma"
+            android:key="idioma"
+            android:entries="@array/idiomas"
+            android:entryValues="@array/valoresIdiomas"/>
+            
+        </PreferenceCategory>          
+        
+        <PreferenceCategory android:title="@string/ajusteMapa">
+            
+            <ListPreference 
+            android:title="@string/ajusteTipoMapa"
+            android:key="tipoMapa"
+            android:entries="@array/tipoMapa"
+            android:entryValues="@array/valoresTipoMapa"/>
+            
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="botonesZoom"
+                android:title="@string/botonesZoom" >        
+    		</CheckBoxPreference>
+    		
+            
+        </PreferenceCategory>              
+               
+        
+    </PreferenceScreen>

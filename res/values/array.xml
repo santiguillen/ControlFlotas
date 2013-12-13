@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="tipoMapa">
+        <item>@string/normal</item>
+        <item>@string/satelite</item>
+        <item>@string/hibrido</item>        
+    </string-array>
+    
+    <string-array name="valoresTipoMapa">
+        <item>normal</item>
+        <item>satelite</item>
+        <item>hibrido</item>        
+    </string-array>
+    
+     <string-array name="idiomas">
+        <item>@string/es</item>
+        <item>@string/en</item>    
+    </string-array>
+    
+    <string-array name="valoresIdiomas">
+        <item>ES</item>
+        <item>EN</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Control de Flotas</string>
+
+    <!-- MENUS -->
+    <string name="menu_ajustes">Settings</string>
+    <string name="menu_salir">Exit</string>
+    <string name="menu_ayuda">Help</string>
+
+    <!-- Vista Login -->
+    <string name="user">Enter user</string>
+    <string name="password">Enter password</string>
+    <string name="botonEntrar">Log In</string>
+    <string name="contentDescription">LogoApp</string>
+    <string name="alarmaLoginTitulo">Error Log In</string>
+    <string name="alarmaLoginContenido">User or password incorrect</string>
+    <string name="confirmarError">OK</string>
+
+    <!-- Vista Mapa -->
+    <string name="title_activity_mapa_vista">Map</string>
+
+    <!-- Vista Ayuda Tab1 -->
+    <string name="title_activity_ayuda_vista">Help</string>
+    <string name="title_activity_help_vista">Help</string>
+    <string name="helpText">(INGLES )Mapa:\n\nCada marcador corresponde a un vehículo.Al pulsar sobre él, mostrará la información detallada de este. \n
+        Esta parte no está implementada, debería existir la posibilidad de ir a una pantalla particular pora cada vehículo en 
+        el que se verá su historial, y la forma de ponerse en contacto con él mediante mensaje de texto/email/llamada, etc) \n\n
+        Ajustes: \n
+        En menú ajustes podrá cambiar el idioma de la aplicación, y los parámetros del mapa.</string>
+
+    <!-- Vista Ayuda Tab2 -->
+    <string name="title_activity_novedades_vista">News</string>
+    <string name="newsText">(INGLES ) Listado de mejoras realizadas en cada una de las versiones:\n\n
+        Versión 0.0: Add smp\n
+        Versión 0.1: Add settings menu\n
+        Verión 0.2: Add help menu\n </string>
+
+    <!-- Vista Ayuda Tab3 -->
+    <string name="title_activity_acerca_de">About</string>
+    <string name="aboutText">Control de flotas\n
+        Version 0.3.0\n\n
+        Developer:\n
+        Santiago Guillén García\n\n
+        Contact:</string>
+    <string name="email">email</string>
+    <string name="emailContentDescription">logo email</string>
+    <string name="clienteMail">Choose email client</string>
+
+    <!-- Vista Ajustes -->
+    <string name="title_ajustes">Settings</string>
+    <string name="ajusteGeneral">General</string>
+    <string name="ajusteIdioma">Language</string>
+    <string name="es">Spanish</string>
+    <string name="en">English</string>
+    <string name="ajusteMapa">Map</string>
+    <string name="ajusteTipoMapa">Map Type</string>
+    <string name="normal">Normal</string>
+    <string name="satelite">Satellite</string>
+    <string name="hibrido">Hybrid</string>
+    <string name="botonesZoom">Show zoom buttons</string>    
+       
+    <!-- Vista Detalle Vehículos -->
+    <string name="title_activity_detalle_vehiculo">DetailVehicle</string>
+    <string name="idVehiculo">vehicle ID:  </string>
+    <string name="idConductor">Driver: </string>
+    <string name="botonLLamada">Call </string>
+    <string name="botonSMS">SMS </string>
+    <string name="tituloSMS">Send SMS</string>
+    <string name="cuerpoSMS">SMS body</string>
+    
+
+</resources>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_ajustes"
+        android:orderInCategory="100"
+        android:title="@string/menu_ajustes"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+    <item
+        android:id="@+id/menu_ayuda"
+        android:orderInCategory="100"
+        android:title="@string/menu_ayuda"
+        android:icon="@android:drawable/ic_menu_help"/>
+    <item
+        android:id="@+id/menu_salir"
+        android:orderInCategory="100"
+        android:title="@string/menu_salir"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+
+</menu>
