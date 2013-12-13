@@ -1,5 +1,6 @@
 package sgg.controlflotas.vista;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -11,6 +12,7 @@ import android.widget.ImageView;
 public class AcercaDeActivity extends Activity implements OnClickListener {
 	
 	private ImageView email;
+	private ImageView twitter;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +21,9 @@ public class AcercaDeActivity extends Activity implements OnClickListener {
 		
 		email = (ImageView) this.findViewById(R.id.email);
 		email.setOnClickListener(this);
+		
+		twitter = (ImageView) this.findViewById(R.id.twitter);
+		twitter.setOnClickListener(this);
 	}
 
 	@Override
@@ -30,12 +35,20 @@ public class AcercaDeActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
-		Intent emailIntent = new Intent(Intent.ACTION_SEND);
 		
-		emailIntent.putExtra(Intent.EXTRA_EMAIL, new String [] {"santiagoguillen@gmail.com"});
-		emailIntent.putExtra(Intent.EXTRA_SUBJECT, "ControlFlotas App Android");
-		emailIntent.setType("message/rfc822");
-		startActivity(Intent.createChooser(emailIntent, getString(R.string.clienteMail)));
+		switch (v.getId()) {
+		case R.id.twitter:
+			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/santiguilleng")));				
+			break;
+
+		case R.id.email:
+			Intent emailIntent = new Intent(Intent.ACTION_SEND);		
+			emailIntent.putExtra(Intent.EXTRA_EMAIL, new String [] {"santiagoguillen@gmail.com"});
+			emailIntent.putExtra(Intent.EXTRA_SUBJECT, "ControlFlotas App Android");
+			emailIntent.setType("message/rfc822");
+			startActivity(Intent.createChooser(emailIntent, getString(R.string.clienteMail)));
+			break;
+		}		
 		
 	}
 

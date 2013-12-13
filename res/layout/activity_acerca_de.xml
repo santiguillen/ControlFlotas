@@ -21,4 +21,13 @@
         android:contentDescription="@string/emailContentDescription"
         android:src="@drawable/email" />
 
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/aboutText"
+        android:layout_alignTop="@+id/email"
+        android:contentDescription="@string/twitterContentDescription"
+        android:src="@drawable/twitter" />
+
 </RelativeLayout>

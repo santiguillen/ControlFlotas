@@ -36,7 +36,7 @@
         Versión 0.1: Añadido menú ajustes\n
         Verión 0.2: Añadido contenido menú ayuda\n </string>
         
-    <!-- Vista Ayuda Tab2-->   
+    <!-- Vista Ayuda Tab3-->   
     <string name="title_activity_acerca_de">Acerca de</string> 
     <string name="aboutText">Control de flotas\n
         Versión 0.3.0\n\n
@@ -45,6 +45,7 @@
         Contacto:</string>
     <string name="email">email</string>
     <string name="emailContentDescription">logo email</string>
+    <string name="twitterContentDescription">logo twitter</string>  
     <string name="clienteMail">Seleccione cliente email</string>         
     
     <!-- Vista Ajustes -->

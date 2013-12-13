@@ -45,6 +45,7 @@
         Contact:</string>
     <string name="email">email</string>
     <string name="emailContentDescription">logo email</string>
+    <string name="twitterContentDescription">logo twitter</string>    
     <string name="clienteMail">Choose email client</string>
 
     <!-- Vista Ajustes -->

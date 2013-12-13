@@ -214,35 +214,37 @@ containing a value of this type.
         public static final int ic_plusone_standard_off_client=0x7f02001c;
         public static final int ic_plusone_tall_off_client=0x7f02001d;
         public static final int logo=0x7f02001e;
+        public static final int twitter=0x7f02001f;
     }
     public static final class id {
-        public static final int RelativeLayout1=0x7f060010;
+        public static final int RelativeLayout1=0x7f060011;
         public static final int aboutText=0x7f060005;
-        public static final int botonEntrar=0x7f060014;
-        public static final int botonLLamada=0x7f06000c;
-        public static final int botonSMS=0x7f06000d;
+        public static final int botonEntrar=0x7f060015;
+        public static final int botonLLamada=0x7f06000d;
+        public static final int botonSMS=0x7f06000e;
         public static final int email=0x7f060006;
-        public static final int helpText=0x7f060011;
+        public static final int helpText=0x7f060012;
         public static final int hybrid=0x7f060004;
-        public static final int idConductor=0x7f06000e;
-        public static final int idMatricula=0x7f06000b;
-        public static final int idNombreConductor=0x7f06000f;
-        public static final int idVehiculo=0x7f06000a;
-        public static final int imageView1=0x7f060015;
-        public static final int map=0x7f060016;
-        public static final int menu_ajustes=0x7f060018;
-        public static final int menu_ayuda=0x7f060019;
-        public static final int menu_salir=0x7f06001a;
-        public static final int newsText=0x7f060017;
+        public static final int idConductor=0x7f06000f;
+        public static final int idMatricula=0x7f06000c;
+        public static final int idNombreConductor=0x7f060010;
+        public static final int idVehiculo=0x7f06000b;
+        public static final int imageView1=0x7f060016;
+        public static final int map=0x7f060017;
+        public static final int menu_ajustes=0x7f060019;
+        public static final int menu_ayuda=0x7f06001a;
+        public static final int menu_salir=0x7f06001b;
+        public static final int newsText=0x7f060018;
         public static final int none=0x7f060000;
         public static final int normal=0x7f060001;
-        public static final int password=0x7f060013;
+        public static final int password=0x7f060014;
         public static final int satellite=0x7f060002;
-        public static final int tab1=0x7f060007;
-        public static final int tab2=0x7f060008;
-        public static final int tab3=0x7f060009;
+        public static final int tab1=0x7f060008;
+        public static final int tab2=0x7f060009;
+        public static final int tab3=0x7f06000a;
         public static final int terrain=0x7f060003;
-        public static final int user=0x7f060012;
+        public static final int twitter=0x7f060007;
+        public static final int user=0x7f060013;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f080000;
@@ -267,10 +269,10 @@ containing a value of this type.
     }
     public static final class string {
         public static final int aboutText=0x7f07002c;
-        public static final int ajusteGeneral=0x7f070031;
-        public static final int ajusteIdioma=0x7f070032;
-        public static final int ajusteMapa=0x7f070035;
-        public static final int ajusteTipoMapa=0x7f070036;
+        public static final int ajusteGeneral=0x7f070032;
+        public static final int ajusteIdioma=0x7f070033;
+        public static final int ajusteMapa=0x7f070036;
+        public static final int ajusteTipoMapa=0x7f070037;
         public static final int alarmaLoginContenido=0x7f070023;
         public static final int alarmaLoginTitulo=0x7f070022;
         public static final int app_name=0x7f07001a;
@@ -298,10 +300,10 @@ containing a value of this type.
          */
         public static final int auth_client_using_bad_version_title=0x7f070014;
         public static final int botonEntrar=0x7f070020;
-        public static final int botonLLamada=0x7f07003e;
-        public static final int botonSMS=0x7f07003f;
-        public static final int botonesZoom=0x7f07003a;
-        public static final int clienteMail=0x7f07002f;
+        public static final int botonLLamada=0x7f07003f;
+        public static final int botonSMS=0x7f070040;
+        public static final int botonesZoom=0x7f07003b;
+        public static final int clienteMail=0x7f070030;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -375,15 +377,15 @@ containing a value of this type.
         public static final int common_signin_button_text_long=0x7f070013;
         public static final int confirmarError=0x7f070024;
         public static final int contentDescription=0x7f070021;
-        public static final int cuerpoSMS=0x7f070041;
+        public static final int cuerpoSMS=0x7f070042;
         public static final int email=0x7f07002d;
         public static final int emailContentDescription=0x7f07002e;
-        public static final int en=0x7f070034;
-        public static final int es=0x7f070033;
+        public static final int en=0x7f070035;
+        public static final int es=0x7f070034;
         public static final int helpText=0x7f070028;
-        public static final int hibrido=0x7f070039;
-        public static final int idConductor=0x7f07003d;
-        public static final int idVehiculo=0x7f07003c;
+        public static final int hibrido=0x7f07003a;
+        public static final int idConductor=0x7f07003e;
+        public static final int idVehiculo=0x7f07003d;
         /**  MENUS 
  MENUS 
          */
@@ -391,11 +393,11 @@ containing a value of this type.
         public static final int menu_ayuda=0x7f07001d;
         public static final int menu_salir=0x7f07001c;
         public static final int newsText=0x7f07002a;
-        public static final int normal=0x7f070037;
+        public static final int normal=0x7f070038;
         public static final int password=0x7f07001f;
-        public static final int satelite=0x7f070038;
+        public static final int satelite=0x7f070039;
         /**  Vista Ayuda Tab3 
- Vista Ayuda Tab2
+ Vista Ayuda Tab3
          */
         public static final int title_activity_acerca_de=0x7f07002b;
         /**  Vista Ayuda Tab1 
@@ -405,7 +407,7 @@ containing a value of this type.
         /**  Vista Detalle Vehículos 
  Vista Detalle Vehículos 
          */
-        public static final int title_activity_detalle_vehiculo=0x7f07003b;
+        public static final int title_activity_detalle_vehiculo=0x7f07003c;
         public static final int title_activity_help_vista=0x7f070027;
         /**  Vista Mapa 
  Vista Mapa 
@@ -418,8 +420,9 @@ containing a value of this type.
         /**  Vista Ajustes 
  Vista Ajustes 
          */
-        public static final int title_ajustes=0x7f070030;
-        public static final int tituloSMS=0x7f070040;
+        public static final int title_ajustes=0x7f070031;
+        public static final int tituloSMS=0x7f070041;
+        public static final int twitterContentDescription=0x7f07002f;
         /**  Vista Login 
  Vista Login 
          */
