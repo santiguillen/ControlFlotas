@@ -67,7 +67,7 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDiiYqXLYlLweXuV3ydAqKxq7mLl38HVTk" />
 
-        <!-- Hay que añadirlo desdespues de una de las actualizaciones de la Google API -->
+        <!-- Hay que añadirlo después de una de las actualizaciones de la Google API -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

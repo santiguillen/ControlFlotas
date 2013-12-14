@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" 
     android:layout_height="match_parent"
-    tools:context=".DetalleVehiculoActivity">  
+    tools:context=".DetalleVehiculoActivity">   
         
     <TableRow>
         <TextView
@@ -16,22 +16,27 @@
             android:id="@+id/idMatricula"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="24sp" />
+            android:textSize="24sp" />                               
+            
+    </TableRow>  
+    
+    <TableRow>
         
         <Button 
             android:id="@+id/botonLLamada"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/botonLLamada"/>
+            android:text="@string/botonLLamada"
+            android:drawableLeft="@android:drawable/ic_menu_call"/>
         
        	<Button 
             android:id="@+id/botonSMS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/botonSMS"/>
-                    
-            
-    </TableRow>        	
+            android:text="@string/botonSMS"
+            android:drawableLeft="@android:drawable/ic_dialog_email"/> 
+        
+    </TableRow>	
         
     <TableRow>
         
@@ -44,9 +49,8 @@
         <TextView
             android:id="@+id/idNombreConductor"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>            
+            android:layout_height="wrap_content"/>              
             
-    </TableRow>
+    </TableRow>  
         
-</TableLayout> 
-
+</TableLayout>

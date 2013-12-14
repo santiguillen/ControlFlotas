@@ -1,9 +1,7 @@
 package sgg.controlflotas.vista;
 
 import sgg.controlflotas.AppMediador;
-import sgg.controlflotas.modelo.ModeloVehiculo;
 import sgg.controlflotas.presentador.IPresentadorDetalleVehiculo;
-import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -36,7 +34,6 @@ public class DetalleVehiculoActivity extends Activity implements IVista, OnClick
 		Intent intent = getIntent();
 		matricula = intent.getStringExtra("idVehiculo");	
 		
-		
 		((TextView) findViewById(R.id.idVehiculo)).setTypeface(null, Typeface.BOLD);
 		((TextView) findViewById(R.id.idConductor)).setTypeface(null, Typeface.BOLD);
 		
@@ -57,18 +54,14 @@ public class DetalleVehiculoActivity extends Activity implements IVista, OnClick
 	public void onClick(View v) {
 		
 		switch (v.getId()) {
-		case R.id.botonLLamada:
-			
+		case R.id.botonLLamada:			
 			AlertDialog.Builder alerta = new AlertDialog.Builder(this);
 			alerta.setTitle("LLamada telefonica");
 			alerta.setMessage("¿Seguro que quiere realizar la llamada?");
-			alerta.setIcon(android.R.drawable.ic_dialog_dialer);
+			alerta.setIcon(android.R.drawable.ic_menu_call);
 			alerta.setPositiveButton("OK", new  DialogInterface.OnClickListener() {
 				public void onClick(DialogInterface dialog, int whichButton) { 
-					//presentador.realizarLlamada(matricula);
-					String telefono = ModeloVehiculo.getInstance().buscarVehiculoMatricula(matricula).getTelefono();
-					Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"+telefono));
-					startActivity(intent);
+					presentador.realizarLlamada(matricula);
 				} 
 				});
 			alerta.setNegativeButton("CANCEL", null);

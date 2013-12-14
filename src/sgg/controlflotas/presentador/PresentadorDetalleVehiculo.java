@@ -4,8 +4,11 @@ import java.util.Locale;
 
 import sgg.controlflotas.AppMediador;
 import sgg.controlflotas.modelo.ModeloVehiculo;
+import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.telephony.SmsManager;
 
@@ -54,10 +57,11 @@ public class PresentadorDetalleVehiculo implements IPresentadorDetalleVehiculo {
 
 	@Override
 	public void realizarLlamada(String matricula) {
-	/*	String telefono = ModeloVehiculo.getInstance().buscarVehiculoMatricula(matricula).getTelefono();
-		Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"+telefono));
-		AppMediador.getInstance().startActivity(intent);
-	*/			
+		String telefono = ModeloVehiculo.getInstance().buscarVehiculoMatricula(matricula).getTelefono();
+		Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"+telefono));		
+		Activity activity = (Activity) AppMediador.getInstance().getVistaDetalleVehiculo();
+		activity.startActivity(intent);
+				
 	}
 
 	@Override

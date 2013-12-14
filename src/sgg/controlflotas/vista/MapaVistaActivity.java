@@ -6,7 +6,6 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-
 import sgg.controlflotas.AppMediador;
 import sgg.controlflotas.presentador.IPresentadorMapaActivity;
 import android.content.Intent;
@@ -35,6 +34,8 @@ public class MapaVistaActivity extends FragmentActivity implements IMapa, OnMark
 		presentador.obtenerVehiculos(presentador.numeroVehiculos());
 		Log.v("Vista Mapa on Create 2 ", "Hola");
 		
+		///////////////////////////////////////CENTRAR MAPA //////////////////////////////////////////////
+			
 		mapa.setOnMarkerClickListener(this);
 	}	
 	
