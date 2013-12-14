@@ -1,11 +1,14 @@
 package sgg.controlflotas.vista;
 
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+
 import sgg.controlflotas.AppMediador;
 import sgg.controlflotas.presentador.IPresentadorMapaActivity;
 import android.content.Intent;
@@ -28,14 +31,17 @@ public class MapaVistaActivity extends FragmentActivity implements IMapa, OnMark
 		presentador = AppMediador.getInstance().getPresentadorMapaActivity();
 		AppMediador.getInstance().setVistaMapa(this);		
 		mMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);		
-		mapa = mMapFragment.getMap();		
+		mapa = mMapFragment.getMap();
 		
-		Log.v("Vista Mapa on Create 1 ", Integer.toString(presentador.numeroVehiculos()));
+		//Obtiene vehículos del modelo para presentarlo como marcadores en el mapa
 		presentador.obtenerVehiculos(presentador.numeroVehiculos());
-		Log.v("Vista Mapa on Create 2 ", "Hola");
 		
-		///////////////////////////////////////CENTRAR MAPA //////////////////////////////////////////////
-			
+		//Centra el mapa en Las Palmas de GC
+		LatLng coordenadas = new LatLng(28.1167551,-15.4399604);
+	    CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(coordenadas, 8);	   
+	  	mapa.moveCamera(cameraUpdate);
+	  	
+	  	//Listener a las marcas del mapa			
 		mapa.setOnMarkerClickListener(this);
 	}	
 	

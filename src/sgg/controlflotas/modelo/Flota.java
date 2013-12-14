@@ -11,7 +11,7 @@ public class Flota {
 		setVehiculo("GC 5678 AA", "coche", "Pedro", "+34123121212", 28.095959, -15.423330);
 		setVehiculo("GC 1298 BB", "camion", "Pablo", "+34123121212", 28.075390, -15.612333);
 		setVehiculo("TF 1298 CM", "moto", "Wilma", "+34123121212", 28.115390, -15.612333);
-		setVehiculo("GC 2293 BP", "moto", "Dino", "+34123121212", 28.511721, -16.318512);
+		setVehiculo("GC 2293 BP", "moto", "Betty", "+34123121212", 28.511721, -16.318512);
 	}
 	
 	public FichaVehiculo getVehiculoMatricula(String matricula) {
